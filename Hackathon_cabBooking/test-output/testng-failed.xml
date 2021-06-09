@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Functional Testing]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Scenario1(failed)">
+    <classes>
+      <class name="com.testscenarios.CabBooking">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="getLowestPrice"/>
+          <include name="clickSearchButton"/>
+          <include name="selectTime"/>
+          <include name="setCabType"/>
+          <include name="driverConfig"/>
+          <include name="setDepartureDate"/>
+          <include name="setSortByOption"/>
+        </methods>
+      </class> <!-- com.testscenarios.CabBooking -->
+    </classes>
+  </test> <!-- Scenario1(failed) -->
+  <test thread-count="5" name="Scenario2(failed)">
+    <classes>
+      <class name="com.testscenarios.HotelBooking">
+        <methods>
+          <include name="getNoAdults"/>
+          <include name="verifyTitle"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="driverConfig"/>
+          <include name="selectHotels"/>
+        </methods>
+      </class> <!-- com.testscenarios.HotelBooking -->
+    </classes>
+  </test> <!-- Scenario2(failed) -->
+  <test thread-count="5" name="Scenario3(failed)">
+    <classes>
+      <class name="com.testscenarios.GiftCardValidation">
+        <methods>
+          <include name="clickGiftCard"/>
+          <include name="switchToGiftCard"/>
+          <include name="driverConfig"/>
+          <include name="tearDown"/>
+          <include name="validateForm"/>
+          <include name="verifyTitle"/>
+          <include name="validateReceiverDetails"/>
+        </methods>
+      </class> <!-- com.testscenarios.GiftCardValidation -->
+    </classes>
+  </test> <!-- Scenario3(failed) -->
+</suite> <!-- Failed suite [Functional Testing] -->

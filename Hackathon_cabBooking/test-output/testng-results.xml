@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="19" passed="19" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-04T11:45:23 IST" name="Functional Testing" finished-at="2021-06-04T11:46:40 IST" duration-ms="77611">
+    <groups>
+      <group name="Regression">
+        <method signature="CabBooking.selectCabs()[pri:1, instance:com.testscenarios.CabBooking@4facf68f]" name="selectCabs" class="com.testscenarios.CabBooking"/>
+        <method signature="CabBooking.selectTime()[pri:6, instance:com.testscenarios.CabBooking@4facf68f]" name="selectTime" class="com.testscenarios.CabBooking"/>
+        <method signature="CabBooking.setDepartureDate()[pri:5, instance:com.testscenarios.CabBooking@4facf68f]" name="setDepartureDate" class="com.testscenarios.CabBooking"/>
+        <method signature="CabBooking.setDestinationCity()[pri:4, instance:com.testscenarios.CabBooking@4facf68f]" name="setDestinationCity" class="com.testscenarios.CabBooking"/>
+        <method signature="CabBooking.setSourceCity()[pri:2, instance:com.testscenarios.CabBooking@4facf68f]" name="setSourceCity" class="com.testscenarios.CabBooking"/>
+        <method signature="CabBooking.verifyTitle()[pri:2, instance:com.testscenarios.CabBooking@4facf68f]" name="verifyTitle" class="com.testscenarios.CabBooking"/>
+        <method signature="HotelBooking.getNoAdults()[pri:2, instance:com.testscenarios.HotelBooking@1ab3a8c8]" name="getNoAdults" class="com.testscenarios.HotelBooking"/>
+        <method signature="HotelBooking.selectHotels()[pri:0, instance:com.testscenarios.HotelBooking@1ab3a8c8]" name="selectHotels" class="com.testscenarios.HotelBooking"/>
+        <method signature="HotelBooking.verifyTitle()[pri:1, instance:com.testscenarios.HotelBooking@1ab3a8c8]" name="verifyTitle" class="com.testscenarios.HotelBooking"/>
+        <method signature="GiftCardValidation.validateForm()[pri:5, instance:com.testscenarios.GiftCardValidation@384ad17b]" name="validateForm" class="com.testscenarios.GiftCardValidation"/>
+        <method signature="GiftCardValidation.validateReceiverDetails()[pri:6, instance:com.testscenarios.GiftCardValidation@384ad17b]" name="validateReceiverDetails" class="com.testscenarios.GiftCardValidation"/>
+        <method signature="GiftCardValidation.verifyTitle()[pri:3, instance:com.testscenarios.GiftCardValidation@384ad17b]" name="verifyTitle" class="com.testscenarios.GiftCardValidation"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="CabBooking.clickSearchButton()[pri:7, instance:com.testscenarios.CabBooking@4facf68f]" name="clickSearchButton" class="com.testscenarios.CabBooking"/>
+        <method signature="CabBooking.getLowestPrice()[pri:10, instance:com.testscenarios.CabBooking@4facf68f]" name="getLowestPrice" class="com.testscenarios.CabBooking"/>
+        <method signature="CabBooking.selectTime()[pri:6, instance:com.testscenarios.CabBooking@4facf68f]" name="selectTime" class="com.testscenarios.CabBooking"/>
+        <method signature="CabBooking.setCabType()[pri:8, instance:com.testscenarios.CabBooking@4facf68f]" name="setCabType" class="com.testscenarios.CabBooking"/>
+        <method signature="CabBooking.setDepartureDate()[pri:5, instance:com.testscenarios.CabBooking@4facf68f]" name="setDepartureDate" class="com.testscenarios.CabBooking"/>
+        <method signature="CabBooking.setDestinationCity()[pri:4, instance:com.testscenarios.CabBooking@4facf68f]" name="setDestinationCity" class="com.testscenarios.CabBooking"/>
+        <method signature="CabBooking.setSortByOption()[pri:9, instance:com.testscenarios.CabBooking@4facf68f]" name="setSortByOption" class="com.testscenarios.CabBooking"/>
+        <method signature="CabBooking.setSourceCity()[pri:2, instance:com.testscenarios.CabBooking@4facf68f]" name="setSourceCity" class="com.testscenarios.CabBooking"/>
+        <method signature="HotelBooking.getNoAdults()[pri:2, instance:com.testscenarios.HotelBooking@1ab3a8c8]" name="getNoAdults" class="com.testscenarios.HotelBooking"/>
+        <method signature="GiftCardValidation.clickGiftCard()[pri:2, instance:com.testscenarios.GiftCardValidation@384ad17b]" name="clickGiftCard" class="com.testscenarios.GiftCardValidation"/>
+        <method signature="GiftCardValidation.switchToGiftCard()[pri:4, instance:com.testscenarios.GiftCardValidation@384ad17b]" name="switchToGiftCard" class="com.testscenarios.GiftCardValidation"/>
+        <method signature="GiftCardValidation.validateForm()[pri:5, instance:com.testscenarios.GiftCardValidation@384ad17b]" name="validateForm" class="com.testscenarios.GiftCardValidation"/>
+        <method signature="GiftCardValidation.validateReceiverDetails()[pri:6, instance:com.testscenarios.GiftCardValidation@384ad17b]" name="validateReceiverDetails" class="com.testscenarios.GiftCardValidation"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2021-06-04T11:45:23 IST" name="Scenario1" finished-at="2021-06-04T11:45:53 IST" duration-ms="30308">
+      <class name="com.testscenarios.CabBooking">
+        <test-method is-config="true" signature="driverConfig()[pri:0, instance:com.testscenarios.CabBooking@4facf68f]" started-at="2021-06-04T11:45:23 IST" name="driverConfig" finished-at="2021-06-04T11:45:30 IST" duration-ms="7138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverConfig -->
+        <test-method signature="readExcelFile()[pri:0, instance:com.testscenarios.CabBooking@4facf68f]" started-at="2021-06-04T11:45:30 IST" name="readExcelFile" finished-at="2021-06-04T11:45:31 IST" duration-ms="929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readExcelFile -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testscenarios.CabBooking@4facf68f]" started-at="2021-06-04T11:45:31 IST" name="tearDown" finished-at="2021-06-04T11:45:31 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=readExcelFile status=SUCCESS method=CabBooking.readExcelFile()[pri:0, instance:com.testscenarios.CabBooking@4facf68f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="selectCabs()[pri:1, instance:com.testscenarios.CabBooking@4facf68f]" started-at="2021-06-04T11:45:31 IST" name="selectCabs" finished-at="2021-06-04T11:45:36 IST" duration-ms="5326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCabs -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testscenarios.CabBooking@4facf68f]" started-at="2021-06-04T11:45:36 IST" name="tearDown" finished-at="2021-06-04T11:45:37 IST" duration-ms="676" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectCabs status=SUCCESS method=CabBooking.selectCabs()[pri:1, instance:com.testscenarios.CabBooking@4facf68f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="setSourceCity()[pri:2, instance:com.testscenarios.CabBooking@4facf68f]" started-at="2021-06-04T11:45:37 IST" name="setSourceCity" finished-at="2021-06-04T11:45:38 IST" duration-ms="1042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setSourceCity -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testscenarios.CabBooking@4facf68f]" started-at="2021-06-04T11:45:38 IST" name="tearDown" finished-at="2021-06-04T11:45:38 IST" duration-ms="41" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=setSourceCity status=SUCCESS method=CabBooking.setSourceCity()[pri:2, instance:com.testscenarios.CabBooking@4facf68f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verifyTitle()[pri:2, instance:com.testscenarios.CabBooking@4facf68f]" started-at="2021-06-04T11:45:38 IST" name="verifyTitle" finished-at="2021-06-04T11:45:38 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testscenarios.CabBooking@4facf68f]" started-at="2021-06-04T11:45:38 IST" name="tearDown" finished-at="2021-06-04T11:45:38 IST" duration-ms="45" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTitle status=SUCCESS method=CabBooking.verifyTitle()[pri:2, instance:com.testscenarios.CabBooking@4facf68f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="setDestinationCity()[pri:4, instance:com.testscenarios.CabBooking@4facf68f]" started-at="2021-06-04T11:45:38 IST" name="setDestinationCity" finished-at="2021-06-04T11:45:40 IST" duration-ms="1499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDestinationCity -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testscenarios.CabBooking@4facf68f]" started-at="2021-06-04T11:45:40 IST" name="tearDown" finished-at="2021-06-04T11:45:40 IST" duration-ms="46" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=setDestinationCity status=SUCCESS method=CabBooking.setDestinationCity()[pri:4, instance:com.testscenarios.CabBooking@4facf68f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="setDepartureDate()[pri:5, instance:com.testscenarios.CabBooking@4facf68f]" started-at="2021-06-04T11:45:40 IST" name="setDepartureDate" finished-at="2021-06-04T11:45:40 IST" duration-ms="785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDepartureDate -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testscenarios.CabBooking@4facf68f]" started-at="2021-06-04T11:45:40 IST" name="tearDown" finished-at="2021-06-04T11:45:40 IST" duration-ms="28" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=setDepartureDate status=SUCCESS method=CabBooking.setDepartureDate()[pri:5, instance:com.testscenarios.CabBooking@4facf68f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="selectTime()[pri:6, instance:com.testscenarios.CabBooking@4facf68f]" started-at="2021-06-04T11:45:40 IST" name="selectTime" finished-at="2021-06-04T11:45:43 IST" duration-ms="2604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectTime -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testscenarios.CabBooking@4facf68f]" started-at="2021-06-04T11:45:43 IST" name="tearDown" finished-at="2021-06-04T11:45:43 IST" duration-ms="57" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectTime status=SUCCESS method=CabBooking.selectTime()[pri:6, instance:com.testscenarios.CabBooking@4facf68f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="clickSearchButton()[pri:7, instance:com.testscenarios.CabBooking@4facf68f]" started-at="2021-06-04T11:45:43 IST" name="clickSearchButton" finished-at="2021-06-04T11:45:47 IST" duration-ms="4029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSearchButton -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testscenarios.CabBooking@4facf68f]" started-at="2021-06-04T11:45:47 IST" name="tearDown" finished-at="2021-06-04T11:45:47 IST" duration-ms="17" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickSearchButton status=SUCCESS method=CabBooking.clickSearchButton()[pri:7, instance:com.testscenarios.CabBooking@4facf68f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="setCabType()[pri:8, instance:com.testscenarios.CabBooking@4facf68f]" started-at="2021-06-04T11:45:47 IST" name="setCabType" finished-at="2021-06-04T11:45:50 IST" duration-ms="2661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setCabType -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testscenarios.CabBooking@4facf68f]" started-at="2021-06-04T11:45:50 IST" name="tearDown" finished-at="2021-06-04T11:45:50 IST" duration-ms="58" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=setCabType status=SUCCESS method=CabBooking.setCabType()[pri:8, instance:com.testscenarios.CabBooking@4facf68f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="setSortByOption()[pri:9, instance:com.testscenarios.CabBooking@4facf68f]" started-at="2021-06-04T11:45:50 IST" name="setSortByOption" finished-at="2021-06-04T11:45:52 IST" duration-ms="1711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setSortByOption -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testscenarios.CabBooking@4facf68f]" started-at="2021-06-04T11:45:52 IST" name="tearDown" finished-at="2021-06-04T11:45:52 IST" duration-ms="21" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=setSortByOption status=SUCCESS method=CabBooking.setSortByOption()[pri:9, instance:com.testscenarios.CabBooking@4facf68f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="getLowestPrice()[pri:10, instance:com.testscenarios.CabBooking@4facf68f]" started-at="2021-06-04T11:45:52 IST" name="getLowestPrice" finished-at="2021-06-04T11:45:52 IST" duration-ms="666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLowestPrice -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testscenarios.CabBooking@4facf68f]" started-at="2021-06-04T11:45:52 IST" name="tearDown" finished-at="2021-06-04T11:45:52 IST" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getLowestPrice status=SUCCESS method=CabBooking.getLowestPrice()[pri:10, instance:com.testscenarios.CabBooking@4facf68f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testscenarios.CabBooking@4facf68f]" started-at="2021-06-04T11:45:52 IST" name="tearDown" finished-at="2021-06-04T11:45:53 IST" duration-ms="799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testscenarios.CabBooking -->
+    </test> <!-- Scenario1 -->
+    <test started-at="2021-06-04T11:45:53 IST" name="Scenario2" finished-at="2021-06-04T11:46:03 IST" duration-ms="9311">
+      <class name="com.testscenarios.HotelBooking">
+        <test-method is-config="true" signature="driverConfig()[pri:0, instance:com.testscenarios.HotelBooking@1ab3a8c8]" started-at="2021-06-04T11:45:53 IST" name="driverConfig" finished-at="2021-06-04T11:46:00 IST" duration-ms="6566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverConfig -->
+        <test-method signature="selectHotels()[pri:0, instance:com.testscenarios.HotelBooking@1ab3a8c8]" started-at="2021-06-04T11:46:00 IST" name="selectHotels" finished-at="2021-06-04T11:46:01 IST" duration-ms="1046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectHotels -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testscenarios.HotelBooking@1ab3a8c8]" started-at="2021-06-04T11:46:01 IST" name="tearDown" finished-at="2021-06-04T11:46:01 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectHotels status=SUCCESS method=HotelBooking.selectHotels()[pri:0, instance:com.testscenarios.HotelBooking@1ab3a8c8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verifyTitle()[pri:1, instance:com.testscenarios.HotelBooking@1ab3a8c8]" started-at="2021-06-04T11:46:01 IST" name="verifyTitle" finished-at="2021-06-04T11:46:01 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testscenarios.HotelBooking@1ab3a8c8]" started-at="2021-06-04T11:46:01 IST" name="tearDown" finished-at="2021-06-04T11:46:01 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTitle status=SUCCESS method=HotelBooking.verifyTitle()[pri:1, instance:com.testscenarios.HotelBooking@1ab3a8c8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="getNoAdults()[pri:2, instance:com.testscenarios.HotelBooking@1ab3a8c8]" started-at="2021-06-04T11:46:01 IST" name="getNoAdults" finished-at="2021-06-04T11:46:02 IST" duration-ms="958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getNoAdults -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testscenarios.HotelBooking@1ab3a8c8]" started-at="2021-06-04T11:46:02 IST" name="tearDown" finished-at="2021-06-04T11:46:02 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getNoAdults status=SUCCESS method=HotelBooking.getNoAdults()[pri:2, instance:com.testscenarios.HotelBooking@1ab3a8c8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testscenarios.HotelBooking@1ab3a8c8]" started-at="2021-06-04T11:46:02 IST" name="tearDown" finished-at="2021-06-04T11:46:03 IST" duration-ms="726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testscenarios.HotelBooking -->
+    </test> <!-- Scenario2 -->
+    <test started-at="2021-06-04T11:46:03 IST" name="Scenario3" finished-at="2021-06-04T11:46:40 IST" duration-ms="37939">
+      <class name="com.testscenarios.GiftCardValidation">
+        <test-method is-config="true" signature="driverConfig()[pri:0, instance:com.testscenarios.GiftCardValidation@384ad17b]" started-at="2021-06-04T11:46:03 IST" name="driverConfig" finished-at="2021-06-04T11:46:14 IST" duration-ms="11374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverConfig -->
+        <test-method signature="clickGiftCard()[pri:2, instance:com.testscenarios.GiftCardValidation@384ad17b]" started-at="2021-06-04T11:46:14 IST" name="clickGiftCard" finished-at="2021-06-04T11:46:29 IST" duration-ms="14626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickGiftCard -->
+        <test-method signature="verifyTitle()[pri:3, instance:com.testscenarios.GiftCardValidation@384ad17b]" started-at="2021-06-04T11:46:29 IST" name="verifyTitle" finished-at="2021-06-04T11:46:29 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method signature="switchToGiftCard()[pri:4, instance:com.testscenarios.GiftCardValidation@384ad17b]" started-at="2021-06-04T11:46:29 IST" name="switchToGiftCard" finished-at="2021-06-04T11:46:29 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchToGiftCard -->
+        <test-method signature="validateForm()[pri:5, instance:com.testscenarios.GiftCardValidation@384ad17b]" started-at="2021-06-04T11:46:29 IST" name="validateForm" finished-at="2021-06-04T11:46:39 IST" duration-ms="10905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateForm -->
+        <test-method signature="validateReceiverDetails()[pri:6, instance:com.testscenarios.GiftCardValidation@384ad17b]" started-at="2021-06-04T11:46:39 IST" name="validateReceiverDetails" finished-at="2021-06-04T11:46:40 IST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateReceiverDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testscenarios.GiftCardValidation@384ad17b]" started-at="2021-06-04T11:46:40 IST" name="tearDown" finished-at="2021-06-04T11:46:40 IST" duration-ms="840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testscenarios.GiftCardValidation -->
+    </test> <!-- Scenario3 -->
+  </suite> <!-- Functional Testing -->
+</testng-results>
