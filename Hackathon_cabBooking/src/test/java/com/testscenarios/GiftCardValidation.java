@@ -56,30 +56,7 @@ public class GiftCardValidation {
 		}
 	}
 
-	//CLICK ON MORE FROM THE NAV MENU
-/*	@Test(priority = 0, groups = { "Smoke" })
-	public static void clickMore() {
-		logger = report.createTest("More Menu");
-		HomePageFunctions.bodyClick(driver);
-		logger.log(Status.INFO, "Clicking anywhere in the home page");
-		HomePageFunctions.clickMoreButton(driver);
-		logger.log(Status.INFO, "Click on More menu");
-	}
-
-	//SELECT GIFTCARD OPTION
-	@Test(priority = 1, groups = { "Regression" })
-	public static void setGiftCardPage() {
-		logger = report.createTest("Gift Card");
-		try {
-			readExcelFile("giftcardsValid");
-			HomePageFunctions.setBookingType(driver, ExcelReadWrite.data[0]);
-			logger.log(Status.INFO, "Clicked on 'Giftcard' option");
-		} catch (StaleElementReferenceException e) {
-
-		}
-		logger.log(Status.PASS, "Successfully clicked on gift card option");
-
-	}*/
+	
 
 	//CLICK E-GIFTCARD 
 	@Test(priority = 2, groups = { "Smoke" })

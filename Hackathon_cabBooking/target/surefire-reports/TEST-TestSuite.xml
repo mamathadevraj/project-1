@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="127.418" tests="19" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="183.068" tests="19" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="15"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -17,7 +17,7 @@
     <property name="sun.boot.library.path" value="C:\Users\HP\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\jre\bin"/>
     <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
     <property name="jdk.debug" value="release"/>
-    <property name="maven.home" value="C:\Users\HP\OneDrive\Documents\IOException-Book one way outstation cab and display the lowest charges.zip_expanded\Hackathon1\EMBEDDED"/>
+    <property name="maven.home" value="C:\Users\HP\git\project-1\Hackathon_cabBooking\EMBEDDED"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\HP"/>
     <property name="user.language" value="en"/>
@@ -42,36 +42,36 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\HP\AppData\Local\Temp\"/>
     <property name="java.version" value="15.0.2"/>
-    <property name="user.dir" value="C:\Users\HP\OneDrive\Documents\IOException-Book one way outstation cab and display the lowest charges.zip_expanded\Hackathon1"/>
+    <property name="user.dir" value="C:\Users\HP\git\project-1\Hackathon_cabBooking"/>
     <property name="os.arch" value="amd64"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\HP\OneDrive\Documents\IOException-Book one way outstation cab and display the lowest charges.zip_expanded\Hackathon1"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\HP\git\project-1\Hackathon_cabBooking"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.library.path" value="C:\Users\HP\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/HP/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin/server;C:/Users/HP/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;C:\Users\HP\OneDrive\Documents\maven\apache-maven-3.8.1-bin (1)\apache-maven-3.8.1\bin;;C:\WINDOWS\System32;;."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="15.0.2+7-27"/>
-    <property name="classworlds.conf" value="C:\Users\HP\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7035082969429842434.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\HP\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf14133700988105642223.tmp"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="59.0"/>
   </properties>
-  <testcase name="readExcelFile" classname="com.testscenarios.CabBooking" time="3.229"/>
-  <testcase name="selectCabs" classname="com.testscenarios.CabBooking" time="3.389"/>
-  <testcase name="setSourceCity" classname="com.testscenarios.CabBooking" time="1.187"/>
-  <testcase name="verifyTitle" classname="com.testscenarios.CabBooking" time="0.023"/>
-  <testcase name="setDestinationCity" classname="com.testscenarios.CabBooking" time="0.892"/>
-  <testcase name="setDepartureDate" classname="com.testscenarios.CabBooking" time="0.459"/>
-  <testcase name="selectTime" classname="com.testscenarios.CabBooking" time="2.314"/>
-  <testcase name="clickSearchButton" classname="com.testscenarios.CabBooking" time="6.825"/>
-  <testcase name="setCabType" classname="com.testscenarios.CabBooking" time="2.433"/>
-  <testcase name="setSortByOption" classname="com.testscenarios.CabBooking" time="0.637"/>
-  <testcase name="getLowestPrice" classname="com.testscenarios.CabBooking" time="0.69"/>
-  <testcase name="selectHotels" classname="com.testscenarios.HotelBooking" time="2.047"/>
-  <testcase name="verifyTitle" classname="com.testscenarios.HotelBooking" time="0.007"/>
-  <testcase name="getNoAdults" classname="com.testscenarios.HotelBooking" time="1.517"/>
-  <testcase name="clickGiftCard" classname="com.testscenarios.GiftCardValidation" time="14.068"/>
-  <testcase name="verifyTitle" classname="com.testscenarios.GiftCardValidation" time="0.013"/>
-  <testcase name="switchToGiftCard" classname="com.testscenarios.GiftCardValidation" time="0.087"/>
-  <testcase name="validateForm" classname="com.testscenarios.GiftCardValidation" time="11.778"/>
-  <testcase name="validateReceiverDetails" classname="com.testscenarios.GiftCardValidation" time="0.115"/>
+  <testcase name="readExcelFile" classname="com.testscenarios.CabBooking" time="5.749"/>
+  <testcase name="selectCabs" classname="com.testscenarios.CabBooking" time="5.81"/>
+  <testcase name="setSourceCity" classname="com.testscenarios.CabBooking" time="4.662"/>
+  <testcase name="verifyTitle" classname="com.testscenarios.CabBooking" time="0.026"/>
+  <testcase name="setDestinationCity" classname="com.testscenarios.CabBooking" time="1.003"/>
+  <testcase name="setDepartureDate" classname="com.testscenarios.CabBooking" time="0.763"/>
+  <testcase name="selectTime" classname="com.testscenarios.CabBooking" time="2.561"/>
+  <testcase name="clickSearchButton" classname="com.testscenarios.CabBooking" time="16.265"/>
+  <testcase name="setCabType" classname="com.testscenarios.CabBooking" time="8.009"/>
+  <testcase name="setSortByOption" classname="com.testscenarios.CabBooking" time="0.65"/>
+  <testcase name="getLowestPrice" classname="com.testscenarios.CabBooking" time="1.093"/>
+  <testcase name="selectHotels" classname="com.testscenarios.HotelBooking" time="2.327"/>
+  <testcase name="verifyTitle" classname="com.testscenarios.HotelBooking" time="0.012"/>
+  <testcase name="getNoAdults" classname="com.testscenarios.HotelBooking" time="2.114"/>
+  <testcase name="clickGiftCard" classname="com.testscenarios.GiftCardValidation" time="4.419"/>
+  <testcase name="verifyTitle" classname="com.testscenarios.GiftCardValidation" time="0.058"/>
+  <testcase name="switchToGiftCard" classname="com.testscenarios.GiftCardValidation" time="0.08"/>
+  <testcase name="validateForm" classname="com.testscenarios.GiftCardValidation" time="15.205"/>
+  <testcase name="validateReceiverDetails" classname="com.testscenarios.GiftCardValidation" time="0.104"/>
 </testsuite>
